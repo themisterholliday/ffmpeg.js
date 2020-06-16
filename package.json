@@ -4,7 +4,7 @@
   "description": "Port of FFmpeg with Emscripten",
   "main": "ffmpeg-webm.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test/ffmpegBuilderTests.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "devDependencies": {
     "chai": "latest",
     "mocha": "latest"
+  },
+  "dependencies": {
+    "async": "^3.2.0"
   }
 }
